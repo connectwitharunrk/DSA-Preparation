@@ -5,7 +5,7 @@ Pyramid Pattern Reverse Order:
   *****
    ***
 	*
- 
+ https://www.geeksforgeeks.org/problems/inverted-triangle-of-stars0110/1?page=1&category=pattern-printing&sortBy=submissions
 */ 
 
 fun main() {
