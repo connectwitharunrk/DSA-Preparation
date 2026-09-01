@@ -14,3 +14,18 @@ fun main() {
 	}
 	print(result)
 }
+
+
+fun main() {
+	var number = 3435
+	 
+	var count = 0
+	while(number > 0) {  
+        val firstNumber = number
+		number = number / 10
+        if(number == 0) println("firstNumber: $firstNumber") // finding first number
+        println("Number: $number")
+        count ++
+	} 
+    println("Number of digits: $count")
+}
