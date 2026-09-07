@@ -1,4 +1,7 @@
+
+// Week 4
 //count Odd and Even
+//https://www.geeksforgeeks.org/problems/count-odd-even/1
 
 fun main() {
 	
