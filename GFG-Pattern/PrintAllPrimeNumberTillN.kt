@@ -19,3 +19,24 @@ fun main() {
 		
 	} 
 }
+
+fun main() {
+
+    val n = 11
+
+    for (number in 2..n) {
+
+        var isPrime = true
+
+        for (i in 2..Math.sqrt(number.toDouble()).toInt()) {
+            if (number % i == 0) {
+                isPrime = false
+                break
+            }
+        }
+
+        if (isPrime) {
+            print("$number ")
+        }
+    }
+}
